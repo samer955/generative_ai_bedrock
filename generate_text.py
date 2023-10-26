@@ -1,7 +1,7 @@
 import boto3
 import json
 
-prompt_request = input("Ask me something: \n\n")
+prompt_request = input("\n" + "Ask me something: \n\n")
 
 bedrock = boto3.client(service_name='bedrock-runtime')
 
@@ -21,4 +21,5 @@ response = bedrock.invoke_model(body=body, modelId=model_id, accept=accept, cont
 
 response_body = json.loads(response.get('body').read())
 
-print("\n", response_body.get("completions")[0].get("data").get("text"))
+print("\n", response_body.get("completions")[0].get("data").get("text"), "\n")
+
