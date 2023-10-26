@@ -17,6 +17,9 @@ In order to use the AWS Service Bedrock you need to activate the service and ena
 See https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/ and https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/overview
 
 ### Starting the App
+pre: if you dont have it already, install python and boto3 (the AWS SDK for Python to create, configure, and manage AWS services).
+     Command to install it: `pip install boto3`
+ 
 1. Clone the Repository
 2. Navigate inside the folder
 3. Open your terminal
