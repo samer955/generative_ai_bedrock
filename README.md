@@ -22,3 +22,6 @@ See https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/ and
 3. Open your terminal
 4. Run "python generate_test.py"
 5. Provide a question and wait for an answer in your terminal.
+
+
+![plot](./generate_text_screenshot.png)
