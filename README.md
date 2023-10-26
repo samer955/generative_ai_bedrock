@@ -1,7 +1,7 @@
 # Integration of Amazon Bedrock in a simple application using python.
 
 ## Setup AWS CLI
-In order to call the AWS Bedrock API from your application, you first need to login into your `AWS CLI`.
+In order to call the AWS Bedrock API from your application, you need first to login into your `AWS CLI`.
 Install the AWS CLI, open a terminal and run `aws configure`. Provide `Access Key ID` and `Secret Access Key` (you find them in your personal area in your AWS Account) as follow:
 
 ```
@@ -18,7 +18,7 @@ See https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/ and
 
 ### Starting the App
 pre: if you dont have it already, install python and boto3 (the AWS SDK for Python to create, configure, and manage AWS services).
-     Command to install it: `pip install boto3`
+The Command to install it is: `pip install boto3`
  
 1. Clone the Repository
 2. Navigate inside the folder
