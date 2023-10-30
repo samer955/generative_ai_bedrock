@@ -28,7 +28,7 @@ git clone https://github.com/samer955/generative_ai_bedrock.git
 ```
 
 
-### Starting the generate-text App
+### Start the generate-text App
 1. Navigate inside the folder `./generative_ai_bedrock/generate_text`
 2. Run `python generate_text.py`
 3. Provide a question and wait for an answer in your terminal.
@@ -36,7 +36,7 @@ git clone https://github.com/samer955/generative_ai_bedrock.git
 
 ![plot](./command_screenshots/generate_text_screenshot.png)
 
-### Starting the generate-image App
+### Start the generate-image App
 
 1. Navigate inside the folder `./generative_ai_bedrock/generate_image`
 2. Run `python generate_image.py`
