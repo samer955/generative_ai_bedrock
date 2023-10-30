@@ -44,7 +44,8 @@ git clone https://github.com/samer955/generative_ai_bedrock.git
 
 ![plot](./generate_image_screenshot.png)
 
-We ask the AI model to generate a dinosaur eating an Ice-cream in Rome. This is the result: 
+We asked the AI-model to generate a dinosaur eating an Ice-cream in Rome and this is the result: 
+
 ![plot](./generate_image/output/generated-5221.png)
 
 
