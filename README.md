@@ -18,9 +18,11 @@ See https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/ and
 
 ### Pre-use
 If you dont have it already, install python and boto3 (the AWS SDK for Python to create, configure, and manage AWS services).
-The Command to install it is: `pip install boto3`
+The Command to install it is: 
+```
+pip install boto3
+```
 Now open your terminal and clone this repository:
-
 ```
 git clone https://github.com/samer955/generative_ai_bedrock.git
 ```
