@@ -20,10 +20,10 @@ See https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/ and
 pre: if you dont have it already, install python and boto3 (the AWS SDK for Python to create, configure, and manage AWS services).
 The Command to install it is: `pip install boto3`
  
-1. Clone the Repository
-2. Navigate inside the folder
-3. Open your terminal
-4. Run `python generate_test.py`
+1. Open your terminal 
+2. Clone the Repository
+3. Navigate inside the folder `./generative_ai_bedrock/generate_text`
+4. Run `python generate_text.py`
 5. Provide a question and wait for an answer in your terminal.
 
 
