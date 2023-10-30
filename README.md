@@ -28,3 +28,18 @@ The Command to install it is: `pip install boto3`
 
 
 ![plot](./generate_text_screenshot.png)
+
+### Starting the generate-image App
+
+1. Open your terminal 
+2. Clone the Repository
+3. Navigate inside the folder `./generative_ai_bedrock/generate_image`
+4. Run `python generate_image.py`
+5. Provide the information required to generate your image and wait the process to end. The image will be available in ./generate_image/ouput/
+
+![plot](./generate_image_screenshot.png)
+
+We ask the AI model to generate a dinosaur eating an Ice-cream in Rome. This is the result: 
+![plot](./generate_image/output/generated-5221.png)
+
+
