@@ -1,4 +1,4 @@
-# Integration of Amazon Bedrock in a simple application using python.
+# Integration of Amazon Bedrock to generate text and images with python.
 
 ## Setup AWS CLI
 In order to call the AWS Bedrock API from your application, you need first to login into your `AWS CLI`.
@@ -16,7 +16,7 @@ Default output format [None]: json
 In order to use the AWS Service Bedrock you need to activate the service and enable the Model_AI provided.
 See https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/ and https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/overview
 
-### Starting the App
+### Starting the generate-text App
 pre: if you dont have it already, install python and boto3 (the AWS SDK for Python to create, configure, and manage AWS services).
 The Command to install it is: `pip install boto3`
  
