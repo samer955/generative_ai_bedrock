@@ -34,7 +34,7 @@ git clone https://github.com/samer955/generative_ai_bedrock.git
 3. Provide a question and wait for an answer in your terminal.
 
 
-![plot](./generate_text_screenshot.png)
+![plot](./command_screenshots/generate_text_screenshot.png)
 
 ### Starting the generate-image App
 
@@ -42,10 +42,10 @@ git clone https://github.com/samer955/generative_ai_bedrock.git
 2. Run `python generate_image.py`
 3. Provide the information required to generate your image and wait the process to end. The image will be available in `./generate_image/ouput/`
 
-![plot](./generate_image_screenshot.png)
+![plot](./command_screenshots/generate_image_screenshot.png)
 
 We asked the AI-model to generate a dinosaur eating an Ice-cream in Rome and this is the result: 
 
-![plot](./generate_image/output/generated-5221.png)
+![plot](./command_screenshots/generate_image/output/generated-5221.png)
 
 
