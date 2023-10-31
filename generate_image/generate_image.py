@@ -4,7 +4,7 @@ import base64
 import os
 import random
 
-prompt = input("\n" + "Hi, what should I generate for you?: \n\n")
+prompt = input("\n" + "Hi, what should I generate for you? \n\n")
 
 payload = {
     "text_prompts" : [{"text": prompt}],
